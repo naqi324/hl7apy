@@ -25,7 +25,7 @@ import sys
 import collections
 import importlib
 try:
-    import cPickle as pickle
+    import _pickle as pickle
 except ImportError:
     import pickle
 
